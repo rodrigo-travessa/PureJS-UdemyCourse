@@ -4,6 +4,68 @@
     Comment
 */
 
+
+
+
+ 
+/*
+    Type conversion
+*/
+
+/* Delete this line to see Code
+let val;
+
+//To String
+
+val = 5+5;
+val = String(5+5);
+val = true;
+val = String(true);
+
+// To Number
+
+val = Number('5'); // 5 , number, undefined
+val = Number(true); // 1, number, undefined
+val = Number(false); // 0, number, undefined
+val = Number('Hi'); // NaN (not a number), number, undefined
+
+val = parseInt('10');
+val = parseFloat('100.9');
+
+console.log(val);
+console.log(typeof val);
+console.log(val.length);
+
+// Type Coercion, JS will see that you are trying to add a string to a number, and will convert the number to string and concatenate both.
+
+const A = 5;
+const B = String('5');
+const sum = A + B;
+
+console.log(sum);
+console.log(typeof sum);
+
+
+
+
+
+
+/*
+        Primitive Types
+    Strings
+    Numbers
+    Boolean
+    Null
+    Undefined
+    Symbol.
+
+        Reference Types
+    Array
+    Object literal
+    
+
+
+/*  Delete this line to see Old Code.
 var Name = 'Rodrigo'; //Var is mutable
 console.log(Name);
 Name = 'Tróia';
