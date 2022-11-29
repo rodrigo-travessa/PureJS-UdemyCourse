@@ -1,4 +1,67 @@
+// document.querySelector('.clear-tasks').addEventListener('click',
+// function (e){
+//   console.log('Hello World');
+
+//   //e.preventDefault();
+// }); // 
 const form = document.querySelector('form');
+const taskInput = document.getElementById('task');
+
+form.addEventListener('submit', runEvent);
+
+function runEvent(e){
+  console.log(e.type);
+  console.log(taskInput.value);
+
+  e.preventDefault();
+}
+
+
+
+
+
+/*
+document.querySelector('.clear-tasks').addEventListener('click', onClick);
+
+function onClick(e){
+  console.log("Clicked")
+  let val;
+
+  val = e;
+
+  val = e.target;
+  val = e.target.id;
+  val = e.target.className;
+  val = e.target.innerText="hello";
+  val = e.type;
+  val = e.timeStamp;
+  val = e.clientY + " " + e.clientX;
+  // OffsetY X coords of the button
+  
+
+
+  // val = e.target.classList;
+  // val.forEach(element => {
+  //   console.log(element)
+  // });
+
+
+  console.log(val);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*const form = document.querySelector('form');
 const taskInput = document.getElementById('task');
 const heading = document.querySelector('h5');
 const select = document.querySelector('select');
@@ -38,4 +101,4 @@ function runEvent(e){
   // console.log(taskInput.value);
 
   // e.preventDefault();
-}
+}*/
